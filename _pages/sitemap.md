@@ -18,7 +18,7 @@ author_profile: true
 ### [Projects]({{ base_path }}/projects/)
 <br/>
 
-### [CV]({{ base_path }}/files/Resume_Zilin_Dai_Mar24.pdf)
+### [CV]({{ base_path }}/files/Resume_Zilin_Dai.pdf)
 
 
 
