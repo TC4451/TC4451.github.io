@@ -21,3 +21,9 @@ My research interests include foundation model pretraining, efficient retrieval 
   /
   <a href="https://tc4451.github.io/files/Resume_Zilin_Dai.pdf">CV</a>
 </p>
+
+<div style="display: flex; justify-content: center;">
+  <div style="display: inline-block; width: 150px;">
+    <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=3LRW1al-2ZfVqNVtYUu174O6z21RCPtDIcsBYuoQYHg&cl=ffffff&w=a"></script>
+  </div>
+</div>
