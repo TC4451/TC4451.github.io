@@ -1,0 +1,107 @@
+primary_name: "Zilin Dai"
+secondary_name: ""
+navbar_name: "Zilin Dai"
+
+positions:
+- logo: /assets/images/badges/harvard.png
+  name: M.E. student in Computational Science & Engineering at Harvard University
+
+email: "zilin_dai@g.harvard.edu"
+cv_link: /files/Resume_Zilin_Dai.pdf
+gscholar: Z9441b0AAAAJ
+github: tc4451
+twitter: ZilinDai  # Do not include the '@' symbol
+linkedin: zilin-dai-036a67229
+# orcid: 0000-0000-0000-0000
+
+short_bio_text_justify: false
+short_bio: >-
+  <p>
+    I am a master's student in Computational Science and Engineering at
+    <a href="https://www.harvard.edu/" target="_blank">Harvard University</a>, supported by the
+    Amazon Robotics Day One Fellowship, and I am doing my master's thesis with
+    Prof. <a href="https://marks.hms.harvard.edu/" target="_blank">Debora Marks</a> at Harvard Medical School.
+  </p>
+
+  <p>
+    My research is in <strong>AI for science</strong>, especially <strong>generative models for molecular design in biology</strong>.
+    I currently build foundation-model-based methods to design RNA that binds target proteins. Before that, I pretrained
+    protein language models for antibody discovery at <a href="https://www.pfizer.com/" target="_blank">Pfizer</a>.
+    Earlier, I worked on world models for robotics, computer vision, and soft robotics at Harvard, CMU, and WPI.
+  </p>
+
+  <p style="color: #a51c30; font-weight: bold;">
+    I am applying to Ph.D. programs for Fall 2027.
+  </p>
+
+portrait_url: /assets/images/photos/portrait.jpg
+portrait_caption: >-
+  With my two budgies.
+
+education:
+- name: Harvard University
+  logo: /assets/images/badges/harvard.png
+  position: >-
+    M.E. in Computational Science &amp; Engineering <br/>
+    Amazon Day One Fellow
+  date: Aug. 2025 - May 2027
+
+- name: Worcester Polytechnic Institute
+  logo: /assets/images/badges/wpi.png
+  position: B.S. in Computer Science
+  date: Aug. 2021 - May 2025
+
+awards:
+- name: Amazon Fulfillment Technologies &amp; Robotics Day One Fellowship
+  date: Sep. 2025
+
+- name: MIT Math Prize for Girls
+  date: Oct. 2021
+
+- name: American Mathematics Competition, National Top 5%
+  date: Jan. 2021
+
+experience:
+- name: Harvard Medical School, Marks Lab
+  logo: /assets/images/badges/harvard.png
+  position: Master's Thesis Student (Prof. Debora Marks)
+  date: Sep. 2026 - present
+
+- name: Amazon
+  logo: /assets/images/badges/amazon.png
+  position: Robotic Data Science Intern
+  date: May 2026 - present
+
+- name: Harvard University
+  logo: /assets/images/badges/harvard.png
+  position: Research Student (Prof. Yilun Du)
+  date: Jan. 2026 - Sep. 2026
+
+- name: Pfizer, AI for Drug Discovery
+  logo: /assets/images/badges/pfizer.png
+  position: >-
+    Intern (Jun. - Dec. 2025) <br/>
+    Co-op (Sep. - Dec. 2024)
+  date: 2024 - 2025
+
+- name: Carnegie Mellon University, Robotics Institute
+  logo: /assets/images/badges/cmu.png
+  position: Research Assistant (Prof. Howie Choset)
+  date: Jul. 2024 - Sep. 2024
+
+- name: Beth Israel Deaconess Medical Center
+  logo: /assets/images/badges/bidmc.jpg
+  position: Research Student (Prof. Feng Tian)
+  date: Sep. 2023 - May 2024
+
+- name: Worcester Polytechnic Institute
+  logo: /assets/images/badges/wpi.png
+  position: >-
+    Research Assistant (Profs. Ziming Zhang, <br/>
+    Markus Nemitz, Jacob Whitehill)
+  date: May 2022 - Jun. 2024
+
+- name: Olympus Corporation of the Americas
+  logo: /assets/images/badges/olympus.png
+  position: R&amp;D Co-op
+  date: Jan. 2023 - Jul. 2023

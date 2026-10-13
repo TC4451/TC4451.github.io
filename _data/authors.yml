@@ -1,18 +1,35 @@
-# Authors
+"Zilin Dai":
+  bold: true
 
-Name Name:
-  name        : "Name Name"
-  uri         : "http://name.com"
-  email       : "name@name.com"
-  bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
-  twitter     : "name"
-  google_plus : "Name"
+"Shuo Xing":
+  url: https://shuoxing98.github.io/
 
-Name2 Name2:
-  name        : "Name2 Name2"
-  email       : "name2@name2.com"
-  bio         : "I ordered what?"
-  avatar      : "bio-photo.jpg"
-  twitter     : "name2"
-  google_plus : "Name"
+"Zhengzhong Tu":
+  url: https://vztu.github.io/
+
+"Mohit Bansal":
+  url: https://www.cs.unc.edu/~mbansal/
+
+"Pan Lu":
+  url: https://lupantech.github.io/
+
+"Lehong Wang":
+  url: http://lehong-wang.github.io/
+
+"Ziming Zhang":
+  url: https://www.wpi.edu/people/faculty/zzhang15
+
+"Howie Choset":
+  url: https://www.ri.cmu.edu/ri-faculty/howie-choset/
+
+"Markus P. Nemitz":
+  url: https://www.wpi.edu/people/faculty/mnemitz
+
+"Jacob Whitehill":
+  url: https://www.wpi.edu/people/faculty/jrwhitehill
+
+"Jacob Richard Whitehill":
+  url: https://www.wpi.edu/people/faculty/jrwhitehill
+
+"Feng Tian":
+  url: https://www.fengtianlab.com/
