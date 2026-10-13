@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Vision-Based Close-loop FDM Printing</title>
+    <link rel="stylesheet" href="../assets/css/projects.css" />
+    <style>
+        .side-by-side {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            gap: 2em;
+            margin-top: 2em;
+        }
+        .side-by-side img {
+            width: 50%;
+            max-width: 28em;
+        }
+        .side-by-side p {
+            width: 50%;
+            font-size: 1.1em;
+            line-height: 1.5em;
+        }
+        @media (max-width: 900px) {
+            .side-by-side {
+                flex-direction: column;
+            }
+            .side-by-side img,
+            .side-by-side p {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main" style="padding-bottom:1em; padding-top: 5em; width: 60em; max-width: 70em; margin-left: auto; margin-right: auto;">
+        <section>
+
+            <h1 style="text-align: center; margin-bottom: 0; color: #4e79a7; font-size: 300%">
+                Vision-Based Close-loop FDM Printing
+            </h1>
+            <h2 style="text-align: center; white-space: nowrap; font-size: 200%">
+                Closed-Loop, Camera-Guided System for Airtight Soft Actuators
+            </h2>
+
+            <p style="text-align: center; font-size: 1em; margin-bottom: 2em;">
+                [<a href="https://arxiv.org/abs/2312.01135">Paper</a>]
+                [<a href="https://youtu.be/6YeycaHmTKA">Video</a>]
+            </p>
+
+            <div class="side-by-side">
+                <img src="../images/close_loop_main_draft.png" alt="Closed-loop FDM printing system">
+
+                <p>
+                    We introduce a low-cost, closed-loop FDM printing system that uses layer-wise vision feedback
+                    to detect and correct under-extrusion defects, enabling more reliable fabrication of airtight
+                    soft pneumatic actuators and reducing the reliance on manual tuning. Our method combines
+                    G-code preprocessing, contour-projected image segmentation, and whole-layer ironing to seal
+                    holes and gaps as they appear during printing. In experiments using three print settings,
+                    the system reduced leak rates by 75.5%, 82.4%, and 97.5% compared to open-loop printing.
+                    These results show that automated correction substantially improves airtightness even with
+                    sub-optimal parameters, though it increases print time and does not address geometric accuracy.
+                </p>
+            </div>
+
+
+            <!-- ########## Acknowledgements and Contact ########## -->
+            <hr style="margin-top: 2em;">
+
+            <h2>Acknowledgements</h2>
+            <p>
+                This work is supported by the Robotic Materials Group at Worcester Polytechnic Institute.
+            </p>
+
+            <hr style="margin-top: 1em">
+            <h2>Contact</h2>
+            <p>If you have any questions, please feel free to contact <a href="https://tc4451.github.io/">Zilin Dai</a>.</p>
+            <hr/>
+
+        </section>
+    </div>
+</body>
+
+</html>

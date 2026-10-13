@@ -17,4 +17,5 @@ authors:
   - Markus P. Nemitz
 links:
   Paper: https://arxiv.org/abs/2312.01135
+  Website: /projects/close_loop.html
 ---
