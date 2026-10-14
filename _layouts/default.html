@@ -4,7 +4,37 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    {%- if page.url == "/" %}
+    <title>Zilin Dai | Harvard University</title>
+    {%- else %}
     <title>{{ page.title }} - {{ site.data.profile.navbar_name }}</title>
+    {%- endif %}
+    {% seo title=false %}
+    {%- if page.url == "/" %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Zilin Dai",
+      "url": "https://tc4451.github.io/",
+      "image": "https://tc4451.github.io/assets/images/photos/portrait.jpg",
+      "email": "mailto:zilin_dai@g.harvard.edu",
+      "jobTitle": "Master's Student in Computational Science and Engineering",
+      "affiliation": [
+        {"@type": "CollegeOrUniversity", "name": "Harvard University"},
+        {"@type": "Organization", "name": "Harvard Medical School"}
+      ],
+      "alumniOf": {"@type": "CollegeOrUniversity", "name": "Worcester Polytechnic Institute"},
+      "knowsAbout": ["AI for Science", "Molecular Design", "Generative Models", "Protein Language Models", "Machine Learning"],
+      "sameAs": [
+        "https://scholar.google.com/citations?user=Z9441b0AAAAJ",
+        "https://github.com/tc4451",
+        "https://www.linkedin.com/in/zilin-dai-036a67229/",
+        "https://x.com/ZilinDai"
+      ]
+    }
+    </script>
+    {%- endif %}
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" integrity="sha512-P5MgMn1jBN01asBgU0z60Qk4QxiXo86+wlFahKrsQf37c9cro517WzVSPPV1tDKzhku2iJ2FVgL67wG03SGnNA==" crossorigin="anonymous" />

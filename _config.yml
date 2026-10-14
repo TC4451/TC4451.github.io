@@ -13,12 +13,21 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+url: "https://tc4451.github.io"
 baseurl: "" # the subpath of your site, e.g. /blog
+title: "Zilin Dai"
+description: >-
+  Zilin Dai is a master's student in Computational Science and Engineering at Harvard University,
+  working on AI for science and generative models for molecular design in biology.
+author: "Zilin Dai"
+lang: en_US
 
 # Build settings
 markdown: kramdown
 plugins:
   - jekyll-email-protect
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -37,3 +46,10 @@ plugins:
 collections:
   - publications
   - news
+
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
