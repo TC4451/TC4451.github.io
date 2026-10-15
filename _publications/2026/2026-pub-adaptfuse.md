@@ -8,8 +8,8 @@ abstract: >-
   LLMs struggle to accumulate evidence across multiple rounds of user interaction in a manner consistent with Bayesian inference. We propose AdaptFuse, a training-free framework that externalizes probabilistic computation from the LLM: a symbolic module maintains a Bayesian posterior over a discrete hypothesis set, while a frozen LLM contributes semantic reasoning via multi-sample Dirichlet aggregation, and the two are combined through entropy-adaptive fusion. Across flight recommendation, hotel recommendation, and web shopping, AdaptFuse consistently outperforms both prompting baselines and fine-tuned Bayesian Teaching models, without storing or training on sensitive user data.
 cover:          /assets/images/covers/adaptfuse.png
 authors:
-  - Fangzhou Lin
-  - Zilin Dai
+  - Fangzhou Lin*
+  - Zilin Dai*
   - Shuo Xing
   - Peiran Li
   - Siyuan Yang
