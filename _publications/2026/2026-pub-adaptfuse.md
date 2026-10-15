@@ -2,6 +2,7 @@
 title:          "AdaptFuse: Training-Free Sequential Preference Inference via Externalized Bayesian Computation"
 date:           2026-04-05 00:01:00 +0800
 selected:       true
+pinned:         true
 pub:            "arXiv preprint"
 pub_date:       "2026"
 
